@@ -18,10 +18,10 @@ export default function ({ width, height }: LogoProps) {
     <Logo
       src={
         colorMode == 'light'
-          ? '/assets/images/logo.svg'
-          : '/assets/images/logo-white.svg'
+          ? ''
+          : ''
       }
-      alt='Arogya Logo'
+      alt='Armor Staking Logo'
       width={width}
       height={height}
     />

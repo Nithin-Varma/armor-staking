@@ -11,7 +11,7 @@ const IndexPage = () => {
         description='Discover a starter kit which includes Next.js, Chakra-UI, Framer-Motion in Typescript. You have few components, Internationalization, SEO and more in this template ! Enjoy coding.'
       >
         <VStack width={'100%'} minH='fit-content'>
-          <Text fontSize={['xl', '2xl']}>Nithin</Text>
+          <Text>Nithin</Text>
         </VStack>
       </PageLayout>
     </>
