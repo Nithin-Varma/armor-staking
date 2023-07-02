@@ -1,6 +1,7 @@
 import PageLayout from '@/components/page-layout';
-import { VStack, Text, Box } from '@chakra-ui/react';
+import { Stack, VStack, Text, Box, Heading, Avatar } from '@chakra-ui/react';
 import { BackgroundImage } from '@/components/Background-Image';
+import PoolCards from '@/components/PoolCards.tsx';
 
 
 const IndexPage = () => {
@@ -13,8 +14,21 @@ const IndexPage = () => {
       >
         <Box>
           <BackgroundImage />
-          <VStack width={'100%'} minH='fit-content'>
-            
+          <VStack paddingTop={'20'} spacing={12} width={'100%'} minH='fit-content'>
+            <VStack>
+             <Avatar
+                size={'xl'}
+                src={
+                    'background-logo.png'
+                }
+                mb={4}
+                pos={'relative'}
+              />
+              <Heading fontSize={'3xl'} fontFamily={'body'} alignContent={'center'} justifyContent={'center'}>
+              ARMOR STAKING
+            </Heading>
+            </VStack>
+            <PoolCards />
           </VStack>
         </Box>
       </PageLayout>

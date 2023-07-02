@@ -14,7 +14,7 @@ export const BackgroundImage = () => {
         // zIndex={-1}
         position="fixed"
         bgImage= "background-image.png"
-        opacity= "0.3"
+        // opacity= "0.3"
         backgroundSize= "cover"
         backgroundPosition= "center"
         backgroundRepeat="no-repeat"
